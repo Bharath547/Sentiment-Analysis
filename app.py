@@ -6,4 +6,4 @@ st.title('Sentiment Analysis ')
 ip=st.text_input('Enter the text:')
 op=model.predict([ip])
 if st.button('Predict'):
-  st.title(op[0])
+  st.title(op[0]) 
